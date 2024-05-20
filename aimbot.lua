@@ -18,7 +18,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V2/main
 local Aimbot = getgenv().Aimbot
 
 local Settings, FOVSettings, Functions = Aimbot.Settings, Aimbot.FOVSettings, Aimbot.Functions
-getgenv().Aimbot.Settings.TeamCheck = true
+getgenv().Aimbot.Settings.TeamCheck = false
 
 local Library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)() -- Pepsi's UI Library
 
